@@ -61,16 +61,16 @@ env:
   #
   # The URL-part(s) to identify the region
   REGIONS: >-
-    "ar",
-    "en"
+    ar,
+    en
   # The readable label(s) on the link to the region-page
   REGIONS_LABELS: >-
-    "Arabic",
-    "English"
+    Arabic,
+    English
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    "1HnP3Khi3uQMGCXQPQhfLonye0UPpU0CBNuj0n6EMrxQ",
-    "1wT6wwf1WN75blGuIMKM3z-1bmVTXBWj9bKxH_iq0PFg"
+    1HnP3Khi3uQMGCXQPQhfLonye0UPpU0CBNuj0n6EMrxQ,
+    1wT6wwf1WN75blGuIMKM3z-1bmVTXBWj9bKxH_iq0PFg
 
 # #############################################################################
 #
