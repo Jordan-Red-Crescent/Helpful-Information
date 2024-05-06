@@ -16,16 +16,16 @@ env:
   NG_USE_Q_AND_A_SEARCH: 'true'
   #
   # For demo-purpose only: A highly visible label to show instance name/version
-  ENV_NAME: ''
+  ENV_NAME: 'Helpful Information App'
   #
   # ###########################################################################
   # TEXT CONTENT:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: ''
+  TXT_APP_NAME: 'Helpful Information'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
-  TXT_APP_LOGO_URL: ''
+  TXT_APP_LOGO_URL: 'https://www.ifrc.org/sites/default/files/media/logo/2021-09/iso2_jo.jpg'
   # The first heading, (only) visible on the main-page
   TXT_MAIN_PAGE_HEADER: ''
   # The (optional) introduction text, (only) visible on the main-page.
@@ -40,11 +40,11 @@ env:
   #
   # Contents of the 'error-page'
   #
-  TXT_ERROR_HEADER: 'Data Unavailable'
+  TXT_ERROR_HEADER: 'Error - Data Unavailable'
   # This Sentence will be followd by a link to the "Contact-URL" set below
   TXT_ERROR_MESSAGE: 'Reach out to us at: '
   # Provide a URL that has contact-information on it, or a `mailto:contact@example.org`-URL
-  TXT_ERROR_CONTACT_URL: 'https://github.com/${{ github.repository }}'
+  TXT_ERROR_CONTACT_URL: 'mailto:'
   # Call to action on a link that will reload the current page
   TXT_ERROR_RETRY: 'Try again?'
   #
@@ -61,13 +61,16 @@ env:
   #
   # The URL-part(s) to identify the region
   REGIONS: >-
-    info
+    ar,
+    en
   # The readable label(s) on the link to the region-page
   REGIONS_LABELS: >-
-    Information
+    Arabic,
+    English
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    1HnP3Khi3uQMGCXQPQhfLonye0UPpU0CBNuj0n6EMrxQ,
+    1wT6wwf1WN75blGuIMKM3z-1bmVTXBWj9bKxH_iq0PFg
 
 # #############################################################################
 #
