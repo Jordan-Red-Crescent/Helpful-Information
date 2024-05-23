@@ -16,7 +16,7 @@ env:
   NG_USE_Q_AND_A_SEARCH: 'true'
   #
   # For demo-purpose only: A highly visible label to show instance name/version
-  ENV_NAME: 'Helpful Information App'
+  ENV_NAME: ''
   #
   # ###########################################################################
   # TEXT CONTENT:
@@ -65,7 +65,7 @@ env:
     en
   # The readable label(s) on the link to the region-page
   REGIONS_LABELS: >-
-    Arabic,
+    العربية,
     English
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
